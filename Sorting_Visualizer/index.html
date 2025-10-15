@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>💠 Sorting Visualizer 💠</h1>
+    
+    <div class="controls glass">
+      <div class="slider-group">
+        <label>Array Size</label>
+        <input type="range" id="size" min="10" max="100" value="50" />
+      </div>
+
+      <div class="slider-group">
+        <label>Speed</label>
+        <input type="range" id="speed" min="10" max="500" value="100" />
+      </div>
+
+      <select id="algorithm" class="glass">
+        <option value="bubble">Bubble Sort</option>
+        <option value="selection">Selection Sort</option>
+        <option value="insertion">Insertion Sort</option>
+        <option value="merge">Merge Sort</option>
+        <option value="quick">Quick Sort</option>
+        <option value="heap">Heap Sort</option>
+      </select>
+
+      <button id="generate" class="btn">🔁 New Array</button>
+      <button id="sort" class="btn">🚀 Sort</button>
+    </div>
+
+    <div id="bars-container" class="glass"></div>
+
+    <!-- Explanation Section -->
+    <div id="explanation" class="glass">
+      <h2>Algorithm Explanation 🧠</h2>
+      <p id="algo-text">Choose an algorithm and click "Sort" to see the explanation in action!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
