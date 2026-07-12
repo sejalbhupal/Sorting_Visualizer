@@ -10,10 +10,8 @@ The goal was to move beyond reading about sorting algorithms and actually *see* 
 
 ## Screenshot
 
-![Sorting Visualizer](sorting_visualizer_screenshot.png)
-
----
-
+![Sorting Visualizer](Sorting_Visualizer/sorting_visualizer_screenshot.png)
+----
 ## What it does
 
 Users can:
