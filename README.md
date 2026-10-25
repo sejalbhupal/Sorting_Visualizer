@@ -1,4 +1,5 @@
 # Sorting Visualizer
+live: https://sejalbhupal.github.io/Sorting_Visualizer/
 
 An interactive web-based application built using **HTML, CSS, and JavaScript** that visually demonstrates how sorting algorithms work — step by step, in real time, with animated color-coded bars.
 
